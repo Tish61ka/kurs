@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 11vh;
+    border-bottom: 1px solid black;
+}
+header img{
+    margin: auto 2%;
+    width: 150px;
+    height: 70px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 0;
+    width: 18vh;
+    font-size: 19px;
+}
+header ul li a{
+    color: black;
+    transition: 250ms ease-in-out;
+}
+header ul li a:hover{
+    padding-bottom: 10%;
+    border-bottom: 1px solid black;
+}
+header button{
+    height: 100%;
+    width: 20vh;
+    background: transparent;
+    border: 1px solid black;
+}
+.button{
+    margin: auto 0;
+    height: 50%;
+    width: 20vh;
+    margin-right: 2%;
+}
+header button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
